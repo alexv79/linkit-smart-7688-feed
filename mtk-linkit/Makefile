@@ -12,7 +12,7 @@ define Package/mtk-linkit
   TITLE:=MTK LinkIt Smart board support package
   HIDDEN:=1
   DEPENDS:=@TARGET_ramips_mt7688_LinkIt7688 \
-	+uhttpd +samba36-server +mountd +curl\
+	+uhttpd +samba36-server +mountd +curl +rpcd +rpcd-mod-iwinfo \
 	+luci +luci-theme-openwrt +luci-app-samba +spi-tools +uboot-envtools \
 	+kmod-fs-vfat +kmod-fs-exfat +kmod-i2c-core +kmod-i2c-ralink \
 	+kmod-nls-base +kmod-nls-cp437 +kmod-nls-iso8859-1 \
