@@ -12,7 +12,7 @@ define Package/mtk-linkit
   TITLE:=MTK LinkIt Smart board support package
   HIDDEN:=1
   DEPENDS:=@TARGET_ramips_mt7688_LinkIt7688 \
-	+luci +luci-theme-openwrt +luci-app-samba +spi-tools +uboot-envtools \
+	+mountd +luci +luci-theme-openwrt +luci-app-samba +spi-tools +uboot-envtools \
 	+kmod-fs-vfat +kmod-fs-exfat +kmod-i2c-core +kmod-i2c-ralink \
 	+kmod-nls-base +kmod-nls-cp437 +kmod-nls-iso8859-1 \
 	+kmod-nls-iso8859-15 +kmod-nls-iso8859-2 +kmod-nls-utf8 \
