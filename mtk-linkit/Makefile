@@ -18,7 +18,7 @@ define Package/mtk-linkit
 	+kmod-nls-base +kmod-nls-cp437 +kmod-nls-iso8859-1 \
 	+kmod-nls-iso8859-15 +kmod-nls-iso8859-2 +kmod-nls-utf8 \
 	+kmod-sdhci-mt7620 +kmod-usb-storage \
-	+mtk-linkit-webui +mtk-sdk-wifi +tcpdump-mini
+	+mtk-linkit-webui +mtk-sdk-wifi
 
   CATEGORY:=Base system
   DEFAULT:=y
